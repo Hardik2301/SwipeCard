@@ -12,6 +12,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -32,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private FloatingActionButton btn_left,btn_right,btn_undo;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,11 +52,13 @@ public class MainActivity extends AppCompatActivity {
         cardStack.setCallback(new SwipeDeck.SwipeDeckCallback() {
             @Override
             public void cardSwipedLeft(long stableId) {
+                btn_left.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_back));
                 Log.i("MainActivity", "card was swiped left, position in adapter: " + stableId);
             }
 
             @Override
             public void cardSwipedRight(long stableId) {
+                btn_right.startAnimation(AnimationUtils.loadAnimation(getApplicationContext(), R.anim.rotate_next));
                 Log.i("MainActivity", "card was swiped right, position in adapter: " + stableId);
             }
 

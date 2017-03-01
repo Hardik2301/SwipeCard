@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="6940d81c73e9c1e33ed4cd5466598ee52a9475e0">
+        sha1="fc749b8c21907f69a11558f447ea98dd64d0887c">
         <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bc2ae0fd3c8b0e0b8d947f23f4bd3cc7ac8d3137/classes.dex" />
     </item>
     <item
@@ -115,7 +115,7 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9ef9c399fe9d71469e732ebc861c2a88b044440e">
+        sha1="9cbaa47d74500b5f672e66c4163c080427fdd896">
         <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c038fbc4620e363a0dd27801d9d91a3d5b60567/classes.dex" />
     </item>
     <item

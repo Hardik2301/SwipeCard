@@ -28,7 +28,7 @@
         swipedeck:fabSize="normal"
         android:layout_margin="15dp"
         android:layout_gravity="bottom"
-        swipedeck:srcCompat="@drawable/ic_arrow_back"
+        swipedeck:srcCompat="@drawable/ic_arrow_back_black_24dp"
         android:id="@+id/button_left" />
 
     <android.support.design.widget.FloatingActionButton
@@ -38,7 +38,7 @@
         swipedeck:fabSize="mini"
         android:layout_margin="15dp"
         android:layout_gravity="bottom|center"
-        swipedeck:srcCompat="@drawable/ic_settings_backup_restore"
+        swipedeck:srcCompat="@drawable/ic_settings_backup_restore_black_24dp"
         android:id="@+id/button_center" />
 
     <android.support.design.widget.FloatingActionButton
@@ -48,7 +48,7 @@
         swipedeck:fabSize="normal"
         android:layout_margin="15dp"
         android:layout_gravity="bottom|right"
-        swipedeck:srcCompat="@drawable/ic_arrow_forward"
+        swipedeck:srcCompat="@drawable/ic_arrow_forward_black_24dp"
         android:id="@+id/button_right" />
 
 

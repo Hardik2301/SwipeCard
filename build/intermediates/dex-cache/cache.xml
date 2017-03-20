@@ -3,78 +3,6 @@
 
     <item
         is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c03bf57f358aa10d253f21989e93bcf6014b3b17">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.1_dce0ac6044fb4432f5e8beb4050a1b3757e3b9b5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ecb496cc08dd52551fc5ec6db3bc0632e95a89bb">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.1_8b30e97faad595d2380520bf221b263d5e7fc210/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="c9649557905bf7a80fca9e0d54cbcb7662627860">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.1_8b7e6d89a622f8314978193b401e3c09b0bd350e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e2719c102dca3a7a5b02ce07f769362da6ddb4ab">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.1_61b7a33705a7282a3a4313d4a9dc15f031e804cc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3e04ac8ca644ea7baddf6fdcf72e15c79e9df94a">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.1_4774c5cfce45d0f3545ccfcf715253919171e2e6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fc749b8c21907f69a11558f447ea98dd64d0887c">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_bc2ae0fd3c8b0e0b8d947f23f4bd3cc7ac8d3137/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.1/support-annotations-25.1.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b59b6ee8d6ecc03e672d253800430343493a6ed8">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.1_6f7e035ef6552a8794063068a0802abed1890ff8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a8ae156c2726ac9c56daaf4b49452ec2cdb7bba9">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-25.1.1_cc410572f36c74d5cc020bd43ba56f922a3013cf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="/Users/imac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
         jumboMode="true"
         optimize="true"
@@ -84,30 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.1/jars/classes.jar"
+        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="02741d05d4b697fba5e279e9881aaa1da0ca7c7f">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.1_1a9ded55416037bbcf734b402e34bc7edbc7c5bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="15b049fedbd8e3926bf99d9e45dfc9b2a1043bb9">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.1_4364221dcbb98c6d28071af514f2accea5b499f6/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0fb891e8f0cfba0513043a7bb357513d229ca2cd">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.1_32acfc05a66e2e34bfdc3bc49bc721d5634cd442/classes.dex" />
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc2ae0fd3c8b0e0b8d947f23f4bd3cc7ac8d3137/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -115,44 +25,8 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.2"
-        sha1="9cbaa47d74500b5f672e66c4163c080427fdd896">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_3c038fbc4620e363a0dd27801d9d91a3d5b60567/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="7bde4c34162092e0a77e7f12dc85ed77c484cf5c">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.1_56f2f43f5a3dff88ee2391f76000612aed82abad/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/design/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="cd7951e04cfb9a8bf008d544a478d9a8d8192d38">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.1_0bfbdb94f442ce34dacb8a180a8a1e3b4ef2c303/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="0d191c1a09e4892d059e5ce749e4ad4e08129e35">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.1_f0789c422c282eafc3be0f3a6af2758b8b0dbd9e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.1_2152b71c85518f9f7270e22e6dc8bf6391f5db08/classes.dex" />
+        sha1="aa4f6ea147db71eccd24e8cad23c3187b8bd9af9">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3c038fbc4620e363a0dd27801d9d91a3d5b60567/classes.dex" />
     </item>
 
 </items>

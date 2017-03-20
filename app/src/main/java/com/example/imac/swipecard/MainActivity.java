@@ -18,7 +18,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.imac.swipecard.viewUtil.SwipeDeck;
+import com.example.swipecardlibrary.view.SwipeDeck;
 import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
         if(cardStack != null){
             cardStack.setAdapter(adapter);
         }
+
         cardStack.setCallback(new SwipeDeck.SwipeDeckCallback() {
             @Override
             public void cardSwipedLeft(long stableId) {

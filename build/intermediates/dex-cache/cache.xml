@@ -2,31 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/imac/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/98122b22fb8174699d62cb8f303b5b3853716463/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_f0a842b503457caae16982a68b8a827c6fff0a2e/classes.dex" />
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_f61a72a559bec5a9f31e3b56bb325a4a859479f6.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/a03b3fb7d24a0e7205b0fb1b6fe0235b92f777a5/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_bc2ae0fd3c8b0e0b8d947f23f4bd3cc7ac8d3137/classes.dex" />
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_653ad018afc300b51a6693629d1aabfa81d64d99.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/38387a18fc1c5cb1f118a3ee07e4de672df6898a/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="aa4f6ea147db71eccd24e8cad23c3187b8bd9af9">
-        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3c038fbc4620e363a0dd27801d9d91a3d5b60567/classes.dex" />
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_baacb27283f0312cabceed6d1de6eae560415a3d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/b8fd0686c9a6c0246f972889d63f81e55434067e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_3529b51522f9cbd066e8a02fb04e8730828f1ef2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/de0c537799c87deda8aaa89f4162d622f858ce77/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_5dda096142b8d7dcdd6f4cdaf0e398afb2267735.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/fa2ebcb98b1b41a9551365ed69042c55501bbc48/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_7e5cb47700ddf26ae532142c389a8c0e30bf5639.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/ac938cca8f016306d83bc302c79258a18b3b6a37/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_a2f0a0eb2b4891e607b5b952bfa4f06dd2ea09bc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/a5055e36bdb257ae8136394b963d853e1ce1b82e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_05f5c924980628a372c2eacdb6b97a1e0e8a9f0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/.android/build-cache/0c08f9e472f09614689a5952179e82a38428fe86/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_b64b97131508ccc7cfabe48cc9a5aac86392ff1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/imac/AndroidStudioProjects/SwipeCard/swipecardlibrary/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb70bb71218ee40528a2b868454ecc0f0c91d757">
+        <dex dex="/Users/imac/AndroidStudioProjects/SwipeCard/app/build/intermediates/pre-dexed/debug/classes_402cb2d832f94785314e80038ffe3ae4518039f3.jar" />
     </item>
 
 </items>

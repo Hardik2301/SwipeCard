@@ -1,55 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.example.swipecardlibrary.view.SwipeFrameLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:swipedeck="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/swipeLayout"
     android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
 
     <com.example.swipecardlibrary.view.SwipeDeck
         android:id="@+id/swipe_deck"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
         android:layout_gravity="center"
         android:padding="50dp"
+        swipedeck:card_spacing="16dp"
         swipedeck:max_visible="3"
-        swipedeck:render_above="false"
-        swipedeck:card_spacing="2dp"
-        swipedeck:preview_layout="@layout/listitem">
+        swipedeck:opacity_end="0.66"
+        swipedeck:preview_layout="@layout/listitem"
+        swipedeck:render_above="true">
 
 
     </com.example.swipecardlibrary.view.SwipeDeck>
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
+    <FrameLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        swipedeck:fabSize="normal"
-        android:layout_margin="15dp"
-        android:layout_gravity="bottom"
-        swipedeck:srcCompat="@drawable/ic_arrow_back_black_24dp"
-        android:id="@+id/button_left" />
+        android:layout_alignParentBottom="true">
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        swipedeck:fabSize="mini"
-        android:layout_margin="15dp"
-        android:layout_gravity="bottom|center"
-        swipedeck:srcCompat="@drawable/ic_settings_backup_restore_black_24dp"
-        android:id="@+id/button_center" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            swipedeck:fabSize="normal"
+            swipedeck:srcCompat="@drawable/ic_arrow_back_black_24dp" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        swipedeck:fabSize="normal"
-        android:layout_margin="15dp"
-        android:layout_gravity="bottom|right"
-        swipedeck:srcCompat="@drawable/ic_arrow_forward_black_24dp"
-        android:id="@+id/button_right" />
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            swipedeck:fabSize="mini"
+            swipedeck:srcCompat="@drawable/ic_settings_backup_restore_black_24dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/button_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="15dp"
+            android:clickable="true"
+            swipedeck:fabSize="normal"
+            swipedeck:srcCompat="@drawable/ic_arrow_forward_black_24dp" />
 
 
-</com.example.swipecardlibrary.view.SwipeFrameLayout>
+    </FrameLayout>
+</RelativeLayout>

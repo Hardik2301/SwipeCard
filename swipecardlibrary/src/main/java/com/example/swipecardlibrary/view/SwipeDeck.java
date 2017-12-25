@@ -207,10 +207,14 @@ public class SwipeDeck extends FrameLayout {
             //later
             newBottomChild.setAlpha(0);
             newBottomChild.setY(getPaddingTop());
+
+            float spacing = adapterIndex * CARD_SPACING;
+            int itemWidth = getWidth() - (getPaddingLeft() + getPaddingRight());
+            newBottomChild.getLayoutParams().width = itemWidth - (int) spacing;
+
             final long viewId = mAdapter.getItemId(adapterIndex);
 
             CardContainer card = new CardContainer(newBottomChild, this, new CardContainerCallback(viewId));
-
             card.setPositionWithinAdapter(adapterIndex);
 
             if (leftImageResource != 0) {
@@ -219,9 +223,7 @@ public class SwipeDeck extends FrameLayout {
             if (rightImageResource != 0) {
                 card.setRightImageResource(rightImageResource);
             }
-
             card.setId(viewId);
-
             deck.addBack(card);
             adapterIndex++;
         }
@@ -246,6 +248,9 @@ public class SwipeDeck extends FrameLayout {
             //later
             newBottomChild.setAlpha(0);
             newBottomChild.setY(getPaddingTop());
+
+            int itemWidth = getWidth() - (getPaddingLeft() + getPaddingRight());
+            newBottomChild.getLayoutParams().width = itemWidth;
 
             final long viewId = mAdapter.getItemId(positionOfLastCard);
 
@@ -276,7 +281,6 @@ public class SwipeDeck extends FrameLayout {
             if (params == null) {
                 params = new ViewGroup.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT);
             }
-
             addViewInLayout(card, -1, params, true);
             int itemWidth = getWidth() - (getPaddingLeft() + getPaddingRight());
             int itemHeight = getHeight() - (getPaddingTop() + getPaddingBottom());
@@ -404,10 +408,15 @@ public class SwipeDeck extends FrameLayout {
         void cardSwipedLeft(long itemId);
 
         void cardSwipedRight(long itemId);
+
         void LeftToRightSwipe();
+
         void RightToLeftSwipe();
+
         void SwipeFinished();
+
         void OnCardClick(int position, View card);
+
         boolean isDragEnabled(long itemId);
     }
 
@@ -445,7 +454,7 @@ public class SwipeDeck extends FrameLayout {
 
         @Override
         public void cardSwipedTop(View card) {
-            Log.e("cardSwipedTop: ", viewId+"");
+            Log.e("cardSwipedTop: ", viewId + "");
             if (!(deck.getFront().getCard() == card)) {
                 Log.e("SWIPE ERROR: ", "card on top of deck not equal to card swiped");
             }
@@ -457,7 +466,7 @@ public class SwipeDeck extends FrameLayout {
 
         @Override
         public void cardSwipedBottom(View card) {
-            Log.e("cardSwipedBottom: ", viewId+"");
+            Log.e("cardSwipedBottom: ", viewId + "");
             if (!(deck.getFront().getCard() == card)) {
                 Log.e("SWIPE ERROR: ", "card on top of deck not equal to card swiped");
             }
@@ -511,7 +520,7 @@ public class SwipeDeck extends FrameLayout {
         @Override
         public void OnCardClick(View card) {
             if (callback != null) {
-                callback.OnCardClick((int)viewId,card);
+                callback.OnCardClick((int) viewId, card);
             }
         }
 

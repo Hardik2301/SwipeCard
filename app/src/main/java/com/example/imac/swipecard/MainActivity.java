@@ -8,8 +8,11 @@ import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.util.Pair;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.animation.Animation;
@@ -39,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar=(Toolbar)findViewById(R.id.toolbar);
+        toolbar.setTitle(R.string.app_name);
+        setSupportActionBar(toolbar);
 
         cardStack = (SwipeDeck) findViewById(R.id.swipe_deck);
 
@@ -129,7 +136,12 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
 //                testData.add("a sample string.");
 //                adapter.notifyDataSetChanged();
-                cardStack.unSwipeCard();
+                if(testData.size() == 0){
+                    testData.add(new CardItem("1","Sample 1","http://acrossandabroad.com/wp-content/uploads/2014/01/silverton-webb.jpg"));
+                    adapter.notifyDataSetChanged();
+                }else {
+                    cardStack.unSwipeCard();
+                }
             }
         });
     }
@@ -194,6 +206,27 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
             return v;
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.action_load:
+                testData.clear();
+                adapter = new SwipeDeckAdapter(testData, this);
+                if(cardStack != null){
+                    cardStack.setAdapter(adapter);
+                }
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }

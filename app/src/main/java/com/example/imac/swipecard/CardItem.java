@@ -1,10 +1,13 @@
 package com.example.imac.swipecard;
 
+import android.os.Parcel;
+import android.os.Parcelable;
+
 /**
  * Created by imac on 2/28/17.
  */
 
-public class CardItem {
+public class CardItem implements Parcelable{
 
     private String id;
     private String name;
@@ -16,6 +19,25 @@ public class CardItem {
         this.name = name;
         this.AvatarUrl = AvatarUrl;
     }
+
+    protected CardItem(Parcel in) {
+        id = in.readString();
+        name = in.readString();
+        AvatarUrl = in.readString();
+        description = in.readString();
+    }
+
+    public static final Creator<CardItem> CREATOR = new Creator<CardItem>() {
+        @Override
+        public CardItem createFromParcel(Parcel in) {
+            return new CardItem(in);
+        }
+
+        @Override
+        public CardItem[] newArray(int size) {
+            return new CardItem[size];
+        }
+    };
 
     public String getId() {
         return id;
@@ -47,5 +69,18 @@ public class CardItem {
 
     public void setDescription(String description) {
         this.description = description;
+    }
+
+    @Override
+    public int describeContents() {
+        return 0;
+    }
+
+    @Override
+    public void writeToParcel(Parcel dest, int flags) {
+        dest.writeString(id);
+        dest.writeString(name);
+        dest.writeString(AvatarUrl);
+        dest.writeString(description);
     }
 }
